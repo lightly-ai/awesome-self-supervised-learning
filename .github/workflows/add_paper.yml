@@ -1,0 +1,22 @@
+name: "Update List"
+
+on:
+  pull_request:
+    branches: [main]
+  issues:
+    types:
+      - labeled
+  workflow_dispatch:
+
+jobs:
+  update-list:
+    if: github.event.label.name == 'new paper'
+    name: "Update List"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: View the Full Github context 
+        run: echo "$GITHUB_CONTEXT"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
