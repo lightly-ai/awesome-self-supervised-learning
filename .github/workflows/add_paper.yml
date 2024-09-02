@@ -16,8 +16,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: View issue information
-        run: echo "Issue body: ${{ github.event.issue.body }}"
       - name: View the Full Github context 
         run: echo "$GITHUB_CONTEXT"
         env:
