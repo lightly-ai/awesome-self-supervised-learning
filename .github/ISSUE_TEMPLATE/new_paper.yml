@@ -1,0 +1,31 @@
+name: New Paper 
+description: Suggest a new paper for the list
+title: "[Paper]: "
+labels: ["new paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new paper for the list 😃
+  - type: textarea
+    id: title
+    attributes:
+      label: Title of the Paper
+      description: Please enter the paper title
+      placeholder: Q*
+    validations:
+      required: true
+  - type: textarea
+    id: year
+    attributes:
+      label: What Year was the paper published in?
+      description: Please enter the year the paper was published in (we use this for organization)
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: Link to the paper
+      description: Please add a link to the paper
+    validations:
+      required: true
