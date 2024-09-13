@@ -3,7 +3,7 @@ name: "Check Links"
 on:
     push:
       branches:
-        - master
+        - main
     pull_request:
     workflow_dispatch:
 
