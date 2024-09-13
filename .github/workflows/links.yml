@@ -1,0 +1,21 @@
+name: "Check Links"
+
+on:
+    push:
+      branches:
+        - master
+    pull_request:
+    workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Detect Broken Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run linkspector
+        uses: umbrelladocs/action-linkspector@v1
+        with:
+          reporter: github-pr-review
+          fail_on_error: true
