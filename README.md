@@ -1,6 +1,6 @@
 # Awesome Self Supervised Learning [![awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Discord](https://img.shields.io/discord/752876370337726585?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/xvNJW94)
 
-Checkout [Lightly**SSL**](https://github.com/lightly-ai/lightly) a computer vision framework for self-supervised learning by the team at [lightly.ai](https://www.lightly.ai/).
+Check out [Lightly**SSL**](https://github.com/lightly-ai/lightly) a computer vision framework for self-supervised learning by the team at [lightly.ai](https://www.lightly.ai/).
 
 ## 2024
 
