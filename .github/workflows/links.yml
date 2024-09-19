@@ -19,3 +19,4 @@ jobs:
         with:
           reporter: github-pr-review
           fail_on_error: true
+          config_file: .github/configs/.linkspector.yml
